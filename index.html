@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom | Digital Leader</title>
+    <meta
+      name="description"
+      content="Dom, a purpose-driven digital leader transforming how work gets done."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#about">Dom<span>.</span></a>
+        <nav aria-label="Sections">
+          <a href="#journey">Journey</a>
+          <a href="#leadership">Leadership</a>
+          <a href="#how-i-work">How I work</a>
+          <a href="#mindset">Mindset</a>
+          <a href="#values">Values</a>
+        </nav>
+      </header>
+
+      <main class="hero">
+        <section class="profile-card" id="about">
+          <div class="photo-panel">
+            <div class="photo-frame">
+              <div class="photo-placeholder">
+                <img src="Profile.jpeg" alt="Profile photo of Dom" />
+              </div>
+            </div>
+          </div>
+
+          <div class="content-panel">
+            <p class="eyebrow">Digital Leader · P&amp;G</p>
+            <h1>Hello, I’m <span>Dom</span>.</h1>
+            <p class="tagline">
+              I design systems, experiences, and ideas that move people forward,
+              and I’m here to transform how work gets done.
+            </p>
+            <p class="lead">
+              For the past six years at P&amp;G, I’ve led global initiatives across
+              Product Supply, Manufacturing, Finance, and Purchasing. My work spans
+              SAP solutions, data activation, AI, data science, cybersecurity, and
+              IT/OT integration. It blends strategy, storytelling, and modern
+              technology, and it’s always grounded in user experience and
+              human-centered design.
+            </p>
+            <p class="lead">
+              I thrive in complex, fast-paced environments, bringing diverse teams
+              together to solve problems that matter. I lead with
+              <strong>curiosity</strong>, <strong>empathy</strong>, and a
+              <strong>bias for impact</strong>.
+            </p>
+          </div>
+        </section>
+
+        <section class="journey" id="journey">
+          <header class="section-header">
+            <p class="eyebrow">My P&amp;G journey</p>
+            <h2>8 years, 4 roles, 2 countries<span>.</span></h2>
+            <p class="hint">Select a year to explore each role</p>
+          </header>
+
+          <div class="timeline-steps" role="tablist" aria-label="Career timeline">
+            <button type="button" class="step" role="tab" id="step-2018" aria-controls="role-2018" aria-selected="false">
+              <span class="step-year">2018</span>
+              <span class="step-title">Regional Delivery IT Manager</span>
+            </button>
+            <button type="button" class="step" role="tab" id="step-2021" aria-controls="role-2021" aria-selected="false">
+              <span class="step-year">2021</span>
+              <span class="step-title">AI/ML Service Delivery Leader</span>
+            </button>
+            <button type="button" class="step" role="tab" id="step-2023" aria-controls="role-2023" aria-selected="false">
+              <span class="step-year">2023</span>
+              <span class="step-title">Site Digital Technology Leader</span>
+            </button>
+            <button type="button" class="step" role="tab" id="step-2026" aria-controls="role-2026" aria-selected="true">
+              <span class="step-year">2026 &middot; Now</span>
+              <span class="step-title">ITAM 2L Director</span>
+            </button>
+          </div>
+
+          <div class="role-panel" role="tabpanel" id="role-2018" aria-labelledby="step-2018" tabindex="0">
+            <p class="timeline-meta">2018 &ndash; 2021 &middot; Philippines</p>
+            <h3>AMA Regional Delivery IT Manager &amp; Innovation IT Project Manager</h3>
+            <p class="timeline-team">Finance &amp; Purchasing IT &middot; B1</p>
+            <p>Led technical scope on the Merck acquisition, India GST, LE restructure, Beauty Care Travel Retail, and PEGA customer engagement transformation, while building UX capability in Manila and Global FPSS.</p>
+            <ul class="tags">
+              <li>Program Management</li>
+              <li>User Experience</li>
+            </ul>
+          </div>
+          <div class="role-panel" role="tabpanel" id="role-2021" aria-labelledby="step-2021" tabindex="0">
+            <p class="timeline-meta">2021 &ndash; 2023 &middot; Philippines</p>
+            <h3>Global AI/ML Service Delivery Leader</h3>
+            <p class="timeline-team">Finance &amp; Purchasing IT &middot; B2</p>
+            <p>Led data, AI, and machine learning for Finance Reimagined, bringing Agile delivery and ML use cases to forecasting and purchasing.</p>
+            <ul class="tags">
+              <li>Service Delivery</li>
+              <li>D&amp;A</li>
+              <li>Product Management</li>
+            </ul>
+          </div>
+          <div class="role-panel" role="tabpanel" id="role-2023" aria-labelledby="step-2023" tabindex="0">
+            <p class="timeline-meta">2023 &ndash; 2026 &middot; Vietnam</p>
+            <h3>Ben Cat Site Digital Technology Leader &amp; Grooming PS Data Activation Leader</h3>
+            <p class="timeline-team">Grooming IT &middot; B2</p>
+            <p>Drove the Unattended Digital Strategy for Ben Cat and Grooming, and built a Data &amp; AI upskilling framework for all PS employees as part of site leadership.</p>
+            <ul class="tags">
+              <li>Digital Transformation</li>
+              <li>Data Activation</li>
+              <li>People Leadership</li>
+            </ul>
+          </div>
+          <div class="role-panel" role="tabpanel" id="role-2026" aria-labelledby="step-2026" tabindex="0">
+            <p class="timeline-meta">2026 &ndash; Present &middot; Philippines</p>
+            <h3>ITAM 2L Director</h3>
+            <p class="timeline-team">IT Asset Management &middot; B3</p>
+            <p>Leading IT Asset Management at director level.</p>
+            <ul class="tags">
+              <li>Now</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <section class="section" id="approach">
+        <header class="section-header">
+          <p class="eyebrow">Beyond the résumé</p>
+          <h2>How I lead, work, and think<span>.</span></h2>
+          <p class="hint">Select a topic to explore</p>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="About my approach">
+          <button type="button" role="tab" id="tab-leadership" aria-controls="leadership" aria-selected="true">Leadership</button>
+          <button type="button" role="tab" id="tab-how-i-work" aria-controls="how-i-work" aria-selected="false">How I work</button>
+          <button type="button" role="tab" id="tab-mindset" aria-controls="mindset" aria-selected="false">Mindset</button>
+          <button type="button" role="tab" id="tab-values" aria-controls="values" aria-selected="false">What drives me</button>
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="leadership" aria-labelledby="tab-leadership" tabindex="0">
+          <p class="panel-intro">
+            I don’t lead from the front or the back. I lead from the middle,
+            where the people, the problem, and the possibility meet.
+          </p>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Curiosity first</h3>
+              <p>I ask “why” before “how.” The best solutions come from understanding the real problem, not the loudest symptom.</p>
+            </article>
+            <article class="card">
+              <h3>Empathy in action</h3>
+              <p>Technology only matters if people use it. I design with users, not for them, and I lead teams the same way.</p>
+            </article>
+            <article class="card">
+              <h3>Bias for impact</h3>
+              <p>Ideas are cheap; outcomes aren’t. I move fast from concept to value and measure success by what actually changes.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="how-i-work" aria-labelledby="tab-how-i-work" tabindex="0">
+          <p class="panel-intro">
+            Not rules for others. These are the conditions where my teams and I
+            do our best work.
+          </p>
+          <div class="card-grid">
+            <article class="card">
+              <span class="card-index">Rule 01</span>
+              <h3>Start with the problem</h3>
+              <p>Bring me the challenge, not just the solution. Clarity on the “why” saves weeks on the “what.”</p>
+            </article>
+            <article class="card">
+              <span class="card-index">Rule 02</span>
+              <h3>Diverse voices, one direction</h3>
+              <p>The best answers come from mixing perspectives across functions, regions, and disciplines. Then we commit together.</p>
+            </article>
+            <article class="card">
+              <span class="card-index">Rule 03</span>
+              <h3>Candor with care</h3>
+              <p>Say what you think, kindly and early. Healthy debate makes ideas stronger, and trust makes it safe.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="mindset" aria-labelledby="tab-mindset" tabindex="0">
+          <p class="panel-intro">
+            Transformation isn’t a project. It’s a way of seeing what’s possible
+            and having the courage to pursue it.
+          </p>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Challenge the default</h3>
+              <p>“The way we’ve always done it” is a starting point, not an answer. Every process deserves a fresh look.</p>
+            </article>
+            <article class="card">
+              <h3>Complexity is an opportunity</h3>
+              <p>I’m energized by messy, fast-moving problems. That’s where the biggest breakthroughs hide.</p>
+            </article>
+            <article class="card">
+              <h3>Human + technology</h3>
+              <p>AI, data, and automation are powerful, but only when they amplify people rather than replace their judgment.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="values" aria-labelledby="tab-values" tabindex="0">
+          <p class="panel-intro">
+            Work should be meaningful for the people doing it and the people it serves.
+          </p>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Purpose</h3>
+              <p>I want to know why the work matters. Purpose turns tasks into a mission and teams into communities.</p>
+            </article>
+            <article class="card">
+              <h3>Impact</h3>
+              <p>Real change people can feel: simpler work, smarter decisions, and outcomes that last beyond the launch.</p>
+            </article>
+            <article class="card">
+              <h3>Growth</h3>
+              <p>For me and everyone around me. The best measure of a leader is how much their people grow.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
